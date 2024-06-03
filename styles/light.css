@@ -4,4 +4,20 @@
   переключая тему
 */
 
-
+.page.theme_light {
+  --accent-color: #353430;
+  --nav-color: #353430;
+  --nav-color-hover: #32312D66;
+  --bg-color: #FFF1F7;
+  --big-title: #FFC2E6;
+  --title-color:#353430;
+  --title-bg-color: #FF8DCB;
+  --text-color: #353430;
+  --big-title-shadow: #FF0070;
+  --bg-img: url(../images/cover-image-light.png);
+  --link-shadow: #FF8DCB;
+  --link-hover-color: #353430;
+  --link-focus-color: #353430;
+  --button-hover: rgb(50, 49, 45, 0.4);
+  --rec-decor: hidden;
+}

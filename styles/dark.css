@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root {
+.page.theme_dark {
   --accent-color: #FF0070;
   --nav-color: #FF0070;
   --bg-color: #000028;
