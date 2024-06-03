@@ -4,32 +4,19 @@
   переключая тему
 */
 
-.page.theme_dark {
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --brand-color: var(--color-purple-1, #db00ff);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
-  --highlight-color: var(--color-black-1, #000028);
-
-  --page-background-color: var(--color-black-1, #000028);
-  --page-background-image: url("../images/cover-image-dark.png");
-
-  --rec-decor-visibility: visible;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: var(--color-pink-2, #f1b2ce);
-    --brand-color: var(--color-purple-1, #db00ff);
-    --secondary-color: var(--color-purple-2, #ff0070);
-    --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-    --accent-color: var(--color-purple-2, #ff0070);
-    --highlight-color: var(--color-black-1, #000028);
-
-    --page-background-color: var(--color-black-1, #000028);
-    --page-background-image: url("../images/cover-image-dark.png");
-
-    --rec-decor-visibility: visible;
-  }
+:root {
+  --accent-color: #FF0070;
+  --nav-color: #FF0070;
+  --bg-color: #000028;
+  --big-title: #DB00FF;
+  --title-color:#000028;
+  --title-bg-color: #FF0070;
+  --text-color: #F1B2CE;
+  --big-title-shadow: #FF0070;
+  --bg-img: url(../images/cover-image-dark.png);
+  --link-shadow: #FF0070;
+  --link-hover-color: #F1B2CE;
+  --link-focus-color: #F1B2CE;
+  --button-hover: rgb(255, 0, 112, 0.4);
+  --rec-decor: visible;
 }

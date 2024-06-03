@@ -2,4 +2,4 @@
 #### ссылка :
 
 > ###  *Репозиторий https://github.com/zymtxsry/slozhno-sosredotochitsya.git*
-> _Благодарю yandex.practicum за такой проект_
+> _Благодарю yandex.practicum за данный проект_

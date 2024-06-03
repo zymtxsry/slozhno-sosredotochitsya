@@ -20,6 +20,7 @@ h5,
 h6,
 p {
   margin: 0;
+  font-size: 18px;
 }
 
 ul {
@@ -39,9 +40,4 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
-
-img {
-  max-inline-size: 100%;
-  block-size: auto;
 }
