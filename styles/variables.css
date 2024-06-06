@@ -8,13 +8,14 @@
   --nav-color-hover: #FF007066;
   --bg-color: #000028;
   --big-title: #DB00FF;
+  --big-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --title-color:#000028;
   --title-bg-color: #FF0070;
   --text-color: #F1B2CE;
+  --link-hover-color: #FF0070;
   --big-title-shadow: #FF0070;
   --bg-img: url(../images/cover-image-dark.png);
   --link-shadow: #FF0070;
-  --link-hover-color: #F1B2CE;
   --link-focus-color: #F1B2CE;
   --button-hover: rgb(255, 0, 112, 0.4);
   --rec-decor: visible;

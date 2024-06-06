@@ -10,14 +10,35 @@
   --nav-color-hover: #32312D66;
   --bg-color: #FFF1F7;
   --big-title: #FFC2E6;
+  --big-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --title-color:#353430;
   --title-bg-color: #FF8DCB;
   --text-color: #353430;
   --big-title-shadow: #FF0070;
   --bg-img: url(../images/cover-image-light.png);
-  --link-shadow: #FF8DCB;
-  --link-hover-color: #353430;
+  --link-shadow: #FF0070;
+  --link-hover-color: #FF0070;
   --link-focus-color: #353430;
   --button-hover: rgb(50, 49, 45, 0.4);
   --rec-decor: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #353430;
+    --nav-color: #353430;
+    --nav-color-hover: #32312D66;
+    --bg-color: #FFF1F7;
+    --big-title: #FFC2E6;
+    --title-color:#353430;
+    --title-bg-color: #FF8DCB;
+    --text-color: #353430;
+    --big-title-shadow: #FF0070;
+    --bg-img: url(../images/cover-image-light.png);
+    --link-shadow: #FF0070;
+    --link-hover-color: #FF0070;
+    --link-focus-color: #353430;
+    --button-hover: rgb(50, 49, 45, 0.4);
+    --rec-decor: hidden;
+  }
 }
