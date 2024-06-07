@@ -191,7 +191,7 @@
 .section-block {
   display: flex;
   flex-direction: column;
-  gap: 19px;
+  gap: 20px;
 }
 
 .article-section {
@@ -322,6 +322,10 @@
   
   .section-content {
     grid-template-columns: 236px 1fr;
+  }
+
+  .section-block {
+    gap: 19px;
   }
 
   .article-section {
